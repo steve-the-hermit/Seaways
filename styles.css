@@ -1,0 +1,23 @@
+/* Target the <h1> element */
+h1 {
+    color: #f70606; /* Text color for my h1 */
+    font-size: 24px; /* Font size for heading 1 */
+    text-align: center; /* Text alignment */
+    margin-top: 40px; /* Top margin */
+  }
+  
+  /* Target the body element */
+  body {
+    background-color: black; /* Background color */
+  }
+  
+  /* target the <title> element */
+  title {
+    font-weight: bold; /* Font weight */
+  }
+  
+  /* Targeting the <html> element */
+  html {
+    font-family: Arial, sans-serif; /* Font  family (idk what im doing :) rn) */
+  }
+  
