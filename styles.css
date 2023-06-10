@@ -1,23 +1,48 @@
 /* Target the <h1> element */
 h1 {
-    color: #f70606; /* Text color for my h1 */
-    font-size: 24px; /* Font size for heading 1 */
-    text-align: center; /* Text alignment */
-    margin-top: 40px; /* Top margin */
+  color: #f70606; /* Text color for my h1 */
+  font-size: 24px; /* Font size for heading 1 */
+  text-align: center; /* Text alignment */
+  margin-top: 40px; /* Top margin */
+}
+
+/* Target the body element */
+body {
+  background-color: black; /* Background color */
+}
+
+/* target the <title> element */
+title {
+  font-weight: bold; /* Font weight */
+}
+
+/* Targeting the <html> element */
+html {
+  font-family: Arial, sans-serif; /* Font  family( idk what im doing :D rn) */
+}
+
+/* Ideal media queries for different devices */
+
+/* Small devices (phones) */
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 20px;
+    margin-top: 20px;
   }
-  
-  /* Target the body element */
-  body {
-    background-color: black; /* Background color */
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  h1 {
+    font-size: 28px;
+    margin-top: 60px;
   }
-  
-  /* target the <title> element */
-  title {
-    font-weight: bold; /* Font weight */
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 36px;
+    margin-top: 80px;
   }
-  
-  /* Targeting the <html> element */
-  html {
-    font-family: Arial, sans-serif; /* Font  family( idk what im doing :D rn) */
-  }
-  
+}
