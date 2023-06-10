@@ -1,7 +1,7 @@
 /* Target the <h1> element */
 h1 {
   color: #f70606; /* Text color for my h1 */
-  font-size: 24px; /* Font size for heading 1 */
+  font-size: 40px; /* Font size for heading 1 */
   text-align: center; /* Text alignment */
   margin-top: 40px; /* Top margin */
 }
@@ -9,6 +9,11 @@ h1 {
 /* Target the body element */
 body {
   background-color: black; /* Background color */
+}
+
+/* Target the <p> element */
+p {
+  color: gold; /* Changed this color */
 }
 
 /* target the <title> element */
@@ -22,7 +27,6 @@ html {
 }
 
 /* Ideal media queries for different devices */
-
 /* Small devices (phones) */
 @media only screen and (max-width: 576px) {
   h1 {
@@ -45,4 +49,18 @@ html {
     font-size: 36px;
     margin-top: 80px;
   }
+}
+
+/* CSS Grid Styles */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 20px; /* Gap between grid items */
+  margin-top: 40px; /* Top margin for the grid container */
+}
+
+.grid-item {
+  background-color: lightgray; /* Background color for grid items */
+  padding: 20px; /* Padding for grid items */
+  text-align: center; /* Text alignment for grid items */
 }
