@@ -1,15 +1,15 @@
 /* Target the <h1> element */
 h1 {
-  color: gold;
-  font-size: 32px;
-  text-align: center;
-  margin-top: 40px;
+  color: gold; /* Text color for my h1 */
+  font-size: larger; /* Font size for heading 1 */
+  text-align: center; /* Text alignment */
+  margin-top: 40px; /* Top margin */
 }
 
-/* Target the <h2> element */
+/* Targeting my <h2> element */
 h2 {
   color: gold;
-  font-size: 45px;
+  font-size: large;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -17,29 +17,27 @@ h2 {
 
 /* Target the body element */
 body {
-  background-color: gray;
+  background-color: grey; /* Background color */
 }
 
 /* Target the <p> element */
 p {
-  color: gold;
-  font-size: 16px;
+  color: gold; /* Changed this color */
+  font-size: medium;
   text-align: center;
-  line-height: 1.5;
 }
 
-/* Target the <title> element */
+/* target the <title> element */
 title {
-  font-weight: bold;
+  font-weight: bold; /* Font weight */
 }
 
 /* Targeting the <html> element */
 html {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif; /* Font family */
 }
 
-/* Ideal media queries for different devices */
-
+/*  Media queries for different devices */
 /* Small devices (phones) */
 @media only screen and (max-width: 576px) {
   h1 {
@@ -76,17 +74,38 @@ html {
 .Future-Aspirations,
 .Contact-Me {
   padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
+  background-color: gray; /* Updated to grey */
+  border: 1px solid gray;
+}
+
+
+.Contact-Me {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .Contact-Me ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .Contact-Me ul li {
+  margin-right: 20px;
   margin-bottom: 10px;
+}
+
+.Contact-Me ul li:last-child {
+  margin-right: 0;
 }
 
 .Contact-Me ul li a {
@@ -96,14 +115,4 @@ html {
 
 .Contact-Me ul li a:hover {
   text-decoration: underline;
-}
-
-
-/* target all h3 elements */
-h3{
-  color: gold;
-  font-size: 24px;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }

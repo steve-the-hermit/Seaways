@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-  
 
   // Smooth scrolling to anchor links
   const anchorLinks = document.querySelectorAll('a[href^="#"]');
@@ -13,23 +12,27 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Form validation
-  const form = document.querySelector('#contact-form');
-  form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    // Perform form validation and submission
-    // Add your code here...
-  });
-
-  // Image slider or carousel
-  const slider = document.querySelector('.slider');
-  // Implement your own image slider or use a library like Swiper, Slick, or Owl Carousel
+  
 
   // Mobile menu toggle
   const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
   const mobileMenu = document.querySelector('.mobile-menu');
   mobileMenuBtn.addEventListener('click', function() {
     mobileMenu.classList.toggle('active');
+  });
+
+  // Navbar hover action
+  const navLinks = document.querySelectorAll('.nav-link');
+  navLinks.forEach(function(link) {
+    link.addEventListener('mouseover', function() {
+      // Add your mouse hover action for the navbar link
+      // Example: Change background color, add animation, etc.
+      link.style.backgroundColor = 'gold';
+    });
+    link.addEventListener('mouseout', function() {
+      // Reset styles when mouse is not hovering
+      link.style.backgroundColor = '';
+    });
   });
 
   // Other JavaScript functionalities specific to your project
