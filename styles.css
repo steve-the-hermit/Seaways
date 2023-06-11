@@ -1,11 +1,18 @@
 /* Target the <h1> element */
 h1 {
-  color: #f70606; /* Text color for my h1 */
-  font-size: 40px; /* Font size for heading 1 */
+  color: gold; /* Text color for my h1 */
+  font-size:larger; /* Font size for heading 1 */
   text-align: center; /* Text alignment */
   margin-top: 40px; /* Top margin */
 }
-
+/* Targeting my h2 element */
+h2{
+  color: gold;
+  font-size: large;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 /* Target the body element */
 body {
   background-color: black; /* Background color */
@@ -14,6 +21,8 @@ body {
 /* Target the <p> element */
 p {
   color: gold; /* Changed this color */
+  font-size: medium;
+  text-align: center;
 }
 
 /* target the <title> element */
@@ -54,9 +63,27 @@ html {
 /* CSS Grid Styles */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-  gap: 20px; /* Gap between grid items */
+  grid-template-columns: repeat(3, 1fr); /* Three columns will be of equal width */
+  gap: 20px; /* Gap between these grid items */
   margin-top: 40px; /* Top margin for the grid container */
+}
+
+.grid-item {
+  background-color: lightgray; /* Background color for grid items */
+  padding: 20px; /* Padding for grid items */
+  text-align: center; /* Text alignment for grid items */
+} 
+
+.grid-item {
+  background-color: lightgray; /* Background color for grid items */
+  padding: 20px; /* Padding for grid items */
+  text-align: center; /* Text alignment for grid items */
+}
+
+.grid-item {
+  background-color: lightgray; /* Background color for grid items */
+  padding: 20px; /* Padding for grid items */
+  text-align: center; /* Text alignment for grid items */
 }
 
 .grid-item {
