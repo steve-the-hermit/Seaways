@@ -1,41 +1,45 @@
 /* Target the <h1> element */
 h1 {
-  color: gold; /* Text color for my h1 */
-  font-size:larger; /* Font size for heading 1 */
-  text-align: center; /* Text alignment */
-  margin-top: 40px; /* Top margin */
-}
-/* Targeting my h2 element */
-h2{
   color: gold;
-  font-size: large;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Target the <h2> element */
+h2 {
+  color: gold;
+  font-size: 45px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 /* Target the body element */
 body {
-  background-color: black; /* Background color */
+  background-color: gray;
 }
 
 /* Target the <p> element */
 p {
-  color: gold; /* Changed this color */
-  font-size: medium;
+  color: gold;
+  font-size: 16px;
   text-align: center;
+  line-height: 1.5;
 }
 
-/* target the <title> element */
+/* Target the <title> element */
 title {
-  font-weight: bold; /* Font weight */
+  font-weight: bold;
 }
 
 /* Targeting the <html> element */
 html {
-  font-family: Arial, sans-serif; /* Font  family( idk what im doing :D rn) */
+  font-family: Arial, sans-serif;
 }
 
 /* Ideal media queries for different devices */
+
 /* Small devices (phones) */
 @media only screen and (max-width: 576px) {
   h1 {
@@ -63,31 +67,43 @@ html {
 /* CSS Grid Styles */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns will be of equal width */
-  gap: 20px; /* Gap between these grid items */
-  margin-top: 40px; /* Top margin for the grid container */
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
 }
 
-.grid-item {
-  background-color: lightgray; /* Background color for grid items */
-  padding: 20px; /* Padding for grid items */
-  text-align: center; /* Text alignment for grid items */
-} 
-
-.grid-item {
-  background-color: lightgray; /* Background color for grid items */
-  padding: 20px; /* Padding for grid items */
-  text-align: center; /* Text alignment for grid items */
+.Current-Projects,
+.Hobbies-And-Interests,
+.Future-Aspirations,
+.Contact-Me {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
 }
 
-.grid-item {
-  background-color: lightgray; /* Background color for grid items */
-  padding: 20px; /* Padding for grid items */
-  text-align: center; /* Text alignment for grid items */
+.Contact-Me ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.grid-item {
-  background-color: lightgray; /* Background color for grid items */
-  padding: 20px; /* Padding for grid items */
-  text-align: center; /* Text alignment for grid items */
+.Contact-Me ul li {
+  margin-bottom: 10px;
+}
+
+.Contact-Me ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.Contact-Me ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/* target all h3 elements */
+h3{
+  color: gold;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
