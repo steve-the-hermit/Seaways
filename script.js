@@ -25,8 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const navLinks = document.querySelectorAll('.nav-link');
   navLinks.forEach(function(link) {
     link.addEventListener('mouseover', function() {
-      // Add your mouse hover action for the navbar link
-      // Example: Change background color, add animation, etc.
+
       link.style.backgroundColor = 'gold';
     });
     link.addEventListener('mouseout', function() {
@@ -35,7 +34,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Other JavaScript functionalities specific to your project
-  // ...
 
 });
